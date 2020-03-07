@@ -5,8 +5,8 @@ import './Navbutton.css';
 export class Navbutton extends Component {
   render(){
     return (
-      <div>
-        Text!
+      <div className="Navbutton">
+        {this.props.text}
       </div>
     )
   };

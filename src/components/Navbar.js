@@ -8,9 +8,9 @@ export class Navbar extends Component {
   render(){
     return (
       <header className="Navbar">
-        <Navbutton></Navbutton>
+        <Navbutton text="La Chorale"></Navbutton>
         <Navlogo></Navlogo>
-        <Navbutton></Navbutton>
+        <Navbutton text="Chansons d'avril"></Navbutton>
       </header>
     )
   };

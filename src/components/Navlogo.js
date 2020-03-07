@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import './Navbutton.css';
+import './Navlogo.css';
 
 
-export class Navbutton extends Component {
+export class Navlogo extends Component {
   render(){
     return (
       <div>
-        logoBOY
+        <img className="logo" src="images/logo.png"></img>
       </div>
     )
   };
 }
 
-export default Navbutton;
+export default Navlogo;
